@@ -1,0 +1,98 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: white;
+    text-align: center;
+}
+h6{
+    color: orange;
+    font-size: 80px; 
+}
+#name:nth-child(0){
+    color: purple;
+}
+#name:nth-child(1){
+    color: violet;
+    font-size: 70px;
+}
+#click{
+    color: orange;
+    font-size: 40px; 
+}
+#btn {
+    height: 100px;
+    width: 100px;
+    font: black;
+}
+button{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    border: white; 
+    background: white;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 50%;
+    text-transform: uppercase;
+    transition: 6s;
+}
+.start-btn:hover{
+    background: orange;
+    cursor: pointer;
+    transform: scale(18.0);
+    color: white;
+}
+.main-div{
+    visibility: hidden;
+    margin-top: 10px;
+}
+.intro-div{
+    visibility: visible;
+}    
+h1{
+    margin-top: 100px;
+    size: 300px;
+}
+h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+h3{
+    margin-top: 10px;
+    font-size: 20px;
+}
+h4{
+    color: greenyellow;
+    font-size: 90px;
+}
+h5{
+    color: aqua;
+    font-size: 90px;
+}
+#input{
+    width: 100px;
+    text-align: center;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: 0;
+}
+input[type=text] {
+    color: orange;
+}
+#message-el{
+    color: black;
+    text-align: center; 
+    font-size: 30px; 
+}
+#message-psst{
+    color: black;
+    text-align: center; 
+    font-size: 30px; 
+}
+
+    

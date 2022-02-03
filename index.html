@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Number Guess Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="intro-div" class="intro-div">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Hi <h6>JULIANNE!</h6></h1>
+    <br>
+    <h2>This is the Number Guessing Game</h2>
+    <br>
+    <h3>Find the circle, watch it grow, <span id="click"><small>click </small></span>on it and move your mouse away to start!</h3>
+    <button type="button" id="start" class="start-btn" onclick="start()">START</button>
+</div>
+<div id="main-div" class="main-div">
+    <p id="message-el"></p>
+    <p id="message-psst">Psst! I'm down here!</p>
+    <input type="text" id="userGuess" placeholder="Number"><button id="btn" class="btn">SUBMIT</button> 
+    <br><h3>Guess a number between 1 and 10.</h3>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
